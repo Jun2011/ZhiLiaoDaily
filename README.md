@@ -1,10 +1,10 @@
 # 一个模仿知乎日报的App
 
 ### 展示
-![](https://github.com/Jun2011/ZhiLiaoDemo/raw/master/images/app_show_1.gif)
-![](https://github.com/Jun2011/ZhiLiaoDemo/raw/master/images/app_show_2.gif)
-![](https://github.com/Jun2011/ZhiLiaoDemo/raw/master/images/app_show_3.gif)
-![](https://github.com/Jun2011/ZhiLiaoDemo/raw/master/images/app_show_4.gif)
+![](https://github.com/Jun2011/ZhiLiaoDaily/raw/master/images/app_show_1.gif)
+![](https://github.com/Jun2011/ZhiLiaoDaily/raw/master/images/app_show_2.gif)
+![](https://github.com/Jun2011/ZhiLiaoDaily/raw/master/images/app_show_3.gif)
+![](https://github.com/Jun2011/ZhiLiaoDaily/raw/master/images/app_show_4.gif)
 
 ### 介绍
 　　该App的数据完全来自于[知乎日报API](https://github.com/iKrelve/KuaiHu/blob/master/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5API.md)，在其中应用到了一些现在比较流行的框架。
