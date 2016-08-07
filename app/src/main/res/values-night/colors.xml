@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // 夜间模式
+    <color name="toolbarBackgroundColor">@color/zl_black_1</color>
+    <color name="listBackgroundColor">@color/zl_black_2</color>
+    <color name="cardBackgroundColor">@color/zl_black_3</color>
+    <color name="drawerHeaderBackgroundColor">@color/zl_black_2</color>
+    <color name="drawerContentBackgroundColor">@color/zl_black_3</color>
+    <color name="cardTextColor">@color/zl_white_2</color>
+    <color name="listTextColor">@color/zl_white_4</color>
+    <color name="webBackgroundColor">@color/zl_black_3</color>
+    <color name="webTextColor">@color/zl_white_4</color>
+</resources>

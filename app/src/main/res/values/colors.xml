@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    // 不含alpha
+    <color name="zl_white">#ffffff</color>
+    <color name="zl_white_1">#f0f0f0</color>
+    <color name="zl_white_2">#e0e0e0</color>
+    <color name="zl_white_3">#d0d0d0</color>
+    <color name="zl_white_4">#c0c0c0</color>
+    <color name="zl_white_5">#b0b0b0</color>
+    <color name="zl_gray">#9e9e9e</color>
+    <color name="zl_blue">#56abe4</color>
+    <color name="zl_black">#000000</color>
+    <color name="zl_black_1">#101010</color>
+    <color name="zl_black_2">#202020</color>
+    <color name="zl_black_3">#303030</color>
+    <color name="zl_black_4">#404040</color>
+    <color name="zl_black_5">#505050</color>
+    <color name="zl_purple">#9d55b8</color>
+    // 含alpha
+    <color name="zl_alpha_black">#12000000</color>
+    <color name="zl_transparency">#00000000</color>
+
+    // 白间模式
+    <color name="toolbarBackgroundColor">@color/zl_blue</color>
+    <color name="listBackgroundColor">@color/zl_white_2</color>
+    <color name="cardBackgroundColor">@color/zl_white_1</color>
+    <color name="drawerHeaderBackgroundColor">@color/zl_blue</color>
+    <color name="drawerContentBackgroundColor">@color/zl_white_1</color>
+    <color name="cardTextColor">@color/zl_black</color>
+    <color name="listTextColor">@color/zl_black</color>
+    <color name="webBackgroundColor">@color/zl_white_1</color>
+    <color name="webTextColor">@color/zl_black</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/ic_add_1"
+        android:title="添加"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_login"
+        android:icon="@mipmap/ic_bell"
+        android:title="铃铛"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_mode"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="夜间模式"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_option"
+        android:title="设置选项"
+        app:showAsAction="never"/>
+</menu>

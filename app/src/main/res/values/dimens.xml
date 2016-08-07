@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    // 自定义间距
+    <dimen name="zl_space_xl">4dp</dimen>
+    <dimen name="zl_space_l">8dp</dimen>
+    <dimen name="zl_space_m">16dp</dimen>
+    <dimen name="zl_space_h">24dp</dimen>
+    <dimen name="zl_space_xh">32dp</dimen>
+    <dimen name="zl_space_xxh">64dp</dimen>
+    <dimen name="zl_space_xxxh">128dp</dimen>
+    <dimen name="zl_space_xxxxh">256dp</dimen>
+
+    // 自定义字体大小
+    <dimen name="zl_size_s">8sp</dimen>
+    <dimen name="zl_size_m">16sp</dimen>
+    <dimen name="zl_size_l">20sp</dimen>
+    <dimen name="zl_size_xl">36sp</dimen>
+</resources>

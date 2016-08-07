@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/header_layout"
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:background="@color/drawerHeaderBackgroundColor">
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/zl_space_m">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_head"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/zl_space_h"
+            android:src="@drawable/img_account_avatar"/>
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/civ_head"
+            android:text="请登录"
+            android:textColor="@color/listTextColor"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/zl_space_m">
+
+        <TextView
+            android:id="@+id/tv_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:drawableLeft="@mipmap/ic_drawer_collect"
+            android:drawablePadding="28dp"
+            android:text="我的收藏"
+            android:textColor="@color/listTextColor"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:drawableLeft="@mipmap/ic_download"
+            android:drawablePadding="28dp"
+            android:text="离线下载"
+            android:textColor="@color/listTextColor"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+</RelativeLayout>

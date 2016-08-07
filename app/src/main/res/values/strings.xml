@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">知了日报</string>
+
+    // 测试
+    <string name="test_story">给你 1 亿美元，你可以解决地球上一个重大问题吗？</string>
+    <string name="theme_editor">主编</string>
+
+</resources>

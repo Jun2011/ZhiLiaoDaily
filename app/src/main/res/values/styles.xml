@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionOverflowButtonStyle">@style/Custom.ActionButton.Overflow</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+    <!--将Toolbar的ActionButton.Overflow图标替换掉-->
+    <style name="Custom.ActionButton.Overflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@mipmap/ic_apostrophe</item>
+    </style>
+    <!--ActionMenu的字体大小-->
+    <style name="MenuTextStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--启动界面主题-->
+    <style name="AppTheme.Launcher">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>
