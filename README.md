@@ -7,7 +7,7 @@
 ![](https://github.com/Jun2011/ZhiLiaoDaily/raw/master/images/app_show_4.gif)
 
 ### 介绍
-　　该App的数据完全来自于[知乎日报API](https://github.com/iKrelve/KuaiHu/blob/master/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5API.md)，在其中应用到了一些现在比较流行的框架。
+　　该App的数据来自于[知乎日报API](https://github.com/iKrelve/KuaiHu/blob/master/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5API.md)，在其中应用到了一些现在比较流行的框架。
 
 ### 功能
 * 启动动画及启动图片的获取
@@ -32,7 +32,7 @@
 * 使用SQLite数据库存储已读文章信息等数据；
 * 使用DrawerLayout实现左侧的抽屉导航栏，但没有直接使用NavigationView而是使用RecyclerView来定制抽屉导航栏。
 
-### 依赖的开源项目
+### 用到的开源项目
 * [ButterKnife](https://github.com/JakeWharton/butterknife)
 * [Logger](https://github.com/orhanobut/logger)
 * [Okhttp](https://github.com/square/okhttp)
